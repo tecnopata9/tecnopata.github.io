@@ -35,19 +35,17 @@ body {
     margin-bottom: 10px;
 }
 
-/* CORRECCIÓN: Evita que el margen del h1 se filtre por encima del header */
 header {
     background: #24282B;
     color: #ffffff;
-    padding-top: 1px; /* 1. Se añade 1px de padding para contener el margen del h1 */
+    padding-top: 30px; 
     min-height: 70px;
     border-bottom: 5px solid #1293d4;
     margin-top: 0; 
 }
 
-/* CORRECCIÓN: Compensación para mantener el espaciado interno original del header */
 header .contenedor {
-    padding-top: 29px; /* Se compensan los 30px originales (30 - 1 = 29) */
+    /* padding-top: 29px; */
     padding-bottom: 0;
 }
 
@@ -74,7 +72,7 @@ header #marca {
 }
 
 header #marca h1 {
-    margin: 0; /* CORRECCIÓN: Anula el margen superior del h1 */
+    margin: 0;
 }
 
 header nav {
@@ -88,10 +86,9 @@ header .actual a, header a:hover {
     border-bottom: #1236d4 3px solid;
 }
 
-/* Estilos de index.html conservados */
 #cabecera {
     min-height: 250px;
-    background: url('../img/cabecera.jpg') no-repeat 0 -250px;
+    background: url('../cabecera.jpg') no-repeat 0 -250px;
     background-size: cover;
     text-align: center;
     color: #ffffff;
@@ -126,7 +123,6 @@ header .actual a, header a:hover {
     margin-right: 10px;
 }
 
-/* Estilos de index.html conservados */
 #cajas {
     margin-top: 20px;
 }
@@ -258,4 +254,5 @@ footer {
         flex: auto;
         width: 100%;
     }
+
 }
