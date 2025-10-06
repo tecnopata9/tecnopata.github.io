@@ -74,7 +74,7 @@ header a:hover{
 /*cabecera*/
 #cabecera{
     min-height: 400px;
-    background: url('../img/cabecera.jpg')no-repeat;
+    background: url('../cabecera.jpg')no-repeat;
     background-position: 0 -400px;
     text-align: center;
     color: #FFFFFF;
@@ -123,3 +123,4 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
